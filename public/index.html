@@ -1,212 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>moncv</title>
-  </head>
-  <body id="page-top">
 
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>a
-      </nav>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!--https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	 crossorigin="anonymous">
+	<title>moncv</title>
+</head>
 
-      <!-- Header -->
-      <header class="masthead">
-        <div class="container d-flex h-100 align-items-center">
-          <div class="mx-auto text-center">
-            <h1 class="mx-auto my-0 text-uppercase">Mathieu Stalder</h1>
-            <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-            <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
-          </div>
-        </div>
-      </header>
+<body>
+	<div class="se-pre-con"></div>
+	<article class="resume-wrapper text-center position-relative">
+		<div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+			<header class="resume-header pt-4 pt-md-0">
+				<div class="media flex-column flex-md-row">
+					<img class="mr-3 img-fluid picture mx-auto" src="mathieu.jpg" alt="">
+					<div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+						<div class="primary-info">
+							<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Mathieu Stalder</h1>
+							<div class="title mb-3">Informaticien de Gestion</div>
+							<ul class="list-unstyled">
+								<li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>Mathieu.stalder@gmail.com</a></li>
+								<li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>079 295 89 07</a></li>
+							</ul>
+						</div>
+						<!--//primary-info-->
+						<div class="secondary-info ml-md-auto mt-2">
+							<ul class="resume-social list-unstyled">
+								<li class="mb-3"><a href="https://www.linkedin.com/in/mathieu-stalder-04573514a/"><span class="fa-container text-center mr-2"><i
+											 class="fab fa-linkedin-in fa-fw"></i></span>Linkedin</a></li>
+								<li class="mb-3"><a href="https://www.facebook.com/mathieu.stalder.3"><span class="fa-container text-center mr-2"><i
+											 class="fab fa-facebook-f fa-fw"></i></span>Facebook</a></li>
+							</ul>
+						</div>
+						<!--//secondary-info-->
 
-      <!-- About Section -->
-      <section id="about" class="about-section text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-              <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-            </div>
-          </div>
-          <img src="img/ipad.png" class="img-fluid" alt="">
-        </div>
-      </section>
+					</div>
+					<!--//media-body-->
+				</div>
+				<!--//media-->
+				
+			</header>
+			<div class="resume-body p-5">
+				<section class="resume-section summary-section mb-5">
+					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">A propos</h2>
+					<div class="resume-section-content">
+						<p class="mb-0">Etudiant en informatique de gestion à la Haute-Ecole Arc de Gestion et 6 ans dans l'informatique</p>
+					</div>
+				</section>
+				<!--//summary-section-->
+				<div class="row">
+					<div class="col-lg-9">
+						<section class="resume-section experience-section mb-5">
+							<br>
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Professionnel</h2>
+							<div class="resume-section-content">
+								<div class="resume-timeline position-relative">
+									<article class="resume-timeline-item position-relative pb-5">
 
-      <!-- Projects Section -->
-      <section id="projects" class="projects-section bg-light">
-        <div class="container">
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Hôtellerie</h3>
+												<div class="resume-company-name ml-auto">Home Montagu - La Neuveville</div>
+											</div>
+											<!--//row-->
+											<div class="resume-position-time">Septembre 2016 - Aujourd'hui</div>
+										</div>
+										<!--//resume-timeline-item-header-->
 
-          <!-- Featured Project Row -->
-          <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-            <div class="col-xl-8 col-lg-7">
-              <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
-            </div>
-            <div class="col-xl-4 col-lg-5">
-              <div class="featured-text text-center text-lg-left">
-                <h4>Shoreline</h4>
-                <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-              </div>
-            </div>
-          </div>
+									</article>
+									<!--//resume-timeline-item-->
 
-          <!-- Project One Row -->
-          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-            <div class="col-lg-6">
-              <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
-            </div>
-            <div class="col-lg-6">
-              <div class="bg-black text-center h-100 project">
-                <div class="d-flex h-100">
-                  <div class="project-text w-100 my-auto text-center text-lg-left">
-                    <h4 class="text-white">Misty</h4>
-                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                    <hr class="d-none d-lg-block mb-0 ml-0">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+									<article class="resume-timeline-item position-relative pb-5">
 
-          <!-- Project Two Row -->
-          <div class="row justify-content-center no-gutters">
-            <div class="col-lg-6">
-              <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-            </div>
-            <div class="col-lg-6 order-lg-first">
-              <div class="bg-black text-center h-100 project">
-                <div class="d-flex h-100">
-                  <div class="project-text w-100 my-auto text-center text-lg-right">
-                    <h4 class="text-white">Mountains</h4>
-                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                    <hr class="d-none d-lg-block mb-0 mr-0">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Stagiaire Technicien</h3>
+												<div class="resume-company-name ml-auto">Steg Computer & electronics</div>
+											</div>
+											<!--//row-->
+											<div class="resume-position-time">août 2014 - juin 2015</div>
+										</div>
+										<!--//resume-timeline-item-header-->
+										<div class="resume-timeline-item-desc">
+											<p>Stage pour la formation au CPLN</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Tâches</h4>
+											<p>Multiple réparation et mise en service d'ordinateur ou périphériques</p>
+											<ul>
+												<li>Réparation Software et Hardware sur Ordinateur, imprimante, NAS, etc...</li>
+												<li>Montage PC, Installation OS</li>
+												<li>Mise en route nouveau PC fixe ou laptop</li>
+												<li>Service après vente</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Outils : </h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Windows</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">MacOs</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Android</span></li>
+											</ul>
+										</div>
+										<!--//resume-timeline-item-desc-->
 
-        </div>
-      </section>
+									</article>
+									<!--//resume-timeline-item-->
+								</div>
+								<!--//resume-timeline-->
 
-      <!-- Signup Section -->
-      <section id="signup" class="signup-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-              <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-              <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+							</div>
+						</section>
+						<!--//experience-section-->
+					</div>
+					<div class="col-lg-3">
+						<section class="resume-section skills-section mb-5">
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Compétences &amp; Outils</h2>
+							<div class="resume-section-content">
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Web</h4>
+									<ul class="list-unstyled mb-4">
+										<li class="mb-2">
+											<div class="resume-skill-name">PHP</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 98%" aria-valuenow="25"
+												 aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">HTML / CSS</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 94%" aria-valuenow="25"
+												 aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">JavaScript</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25"
+												 aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">CakePHP (en cours)</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 25%" aria-valuenow="25"
+												 aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<!--//resume-skill-item-->
 
-              <form class="form-inline d-flex">
-                <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-                <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-              </form>
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Développement</h4>
+									<ul class="list-unstyled">
+										<li class="mb-2">
+											<div class="resume-skill-name">C#</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 95%" aria-valuenow="25"
+												 aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Java</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="50"
+												 aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">WordPress</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 82%" aria-valuenow="25"
+												 aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<!--//resume-skill-item-->
 
-            </div>
-          </div>
-        </div>
-      </section>
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Autres</h4>
+									<ul class="list-inline">
+										<li class="list-inline-item"><span class="badge badge-light">Réseau local</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Modélisation / UML</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Modélisation / Merise</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Ajax</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Réseau serveur</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">JQuery</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Ubuntu</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Machine Virtuelle</span></li>
+									</ul>
+								</div>
+								<!--//resume-skill-item-->
+							</div>
+							<!--resume-section-content-->
+						</section>
+						<!--//skills-section-->
 
-      <!-- Contact Section -->
-      <section class="contact-section bg-black">
-        <div class="container">
+					</div>
+					<div class="col-lg-12">
+						<div class="row">
+							<div class="col-lg-6">
+								<section class="resume-section education-section mb-6">
+									<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Scolarité</h2>
+									<div class="resume-section-content">
+										<ul class="list-unstyled">
+											<li class="mb-2">
+												<div class="resume-degree font-weight-bold">Informaticien de Gestion</div>
+												<div class="resume-degree-org">Haute Ecole de Gestion ARC</div>
+												<div class="resume-degree-time">septembre 2017 - aujourd'hui</div>
+											</li>
+											<li>
+												<div class="resume-degree font-weight-bold">Informaticien généraliste</div>
+												<div class="resume-degree-org">Centre Professionnel du littoral Neuchâtelois</div>
+												<div class="resume-degree-time">août 2012 - juin 2017</div>
+											</li>
+										</ul>
+									</div>
+								</section>
+							</div>
+							<div class="col-lg-6">
+								<!--//education-section-->
+								<section class="resume-section reference-section mb-6">
+									<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Diplômes</h2>
+									<div class="resume-section-content">
+										<ul class="list-unstyled resume-awards-list">
+											</li>
+											<li class="mb-2 pl-4 position-relative">
+												<i class="resume-award-icon fas fa-graduation-cap position-absolute" data-fa-transform="shrink-2"></i>
+												<div class="resume-award-name">CFC - Informaticien Généraliste</div>
+												<div class="resume-award-desc"> </div>
+											</li>
+											<li class="mb-2 pl-4 position-relative">
+												<i class="resume-award-icon fas fa-graduation-cap position-absolute" data-fa-transform="shrink-2"></i>
+												<div class="resume-award-name">Maturité Professionnelle Technique</div>
+												<div class="resume-award-desc"> </div>
+											</li>
+										</ul>
+									</div>
 
-          <div class="row">
+								</section>
+							</div>
+							<!--//interests-section-->
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<section class="resume-section language-section mb-4">
+									<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Langues</h2>
+									<div class="resume-section-content">
+										<ul class="list-unstyled resume-lang-list">
+											<li class="mb-2"><span class="resume-lang-name font-weight-bold">Français</span> <small class="text-muted font-weight-normal">Langue
+													Maternelle</small></li>
+											<li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">Anglais</span> <small class="text-muted font-weight-normal">B1</small></li>
+											<li><span class="resume-lang-name font-weight-bold">Allemand</span> <small class="text-muted font-weight-normal">A2</small></li>
+										</ul>
+									</div>
+								</section>
+							</div>
+							<div class="col-lg-6">
+								<!--//interests-section-->
+								<section class="resume-section interests-section mb-5">
+									<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Intérêts</h2>
+									<div class="row">
+										<div class="col-lg-5">
+											<div class="resume-section-content">
+												<ul class="list-unstyled">
+													<li class="mb-1">Voile</li>
+													<ul>
+														<li>Lac de Bienne</li>
+														<li>Lac de Neuchâtel</li>
+														<li>Lac Léman</li>
+													</ul>
+													<li class="mb-1">Ski</li>
+													<ul>
+														<li>Portes du Soleil</li>
+													</ul>
+												</ul>
+											</div>
+										</div>
+										<div class="col-lg-7">
+											<div class="resume-section-content">
+												<ul class="list-unstyled">
+													<li class="mb-1">Voyages</li>
+													<ul>
+														<li class="">Islande</li>
+														<li class="">Etats-Unis</li>
+														<ul>
+															<li>Californie</li>
+															<li>Nevada</li>
+														</ul>
+													</ul>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--//row-->
+			</div>
+			<!--//resume-body-->
+		</div>
+	</article>
 
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">Address</h4>
-                  <hr class="my-4">
-                  <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fas fa-envelope text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">Email</h4>
-                  <hr class="my-4">
-                  <div class="small text-black-50">
-                    <a href="#">hello@yourdomain.com</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">Phone</h4>
-                  <hr class="my-4">
-                  <div class="small text-black-50">+1 (555) 902-8832</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="social d-flex justify-content-center">
-            <a href="#" class="mx-2">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="mx-2">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="mx-2">
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
-
-        </div>
-      </section>
-
-      <!-- Footer -->
-      <footer class="bg-black small text-center text-white-50">
-        <div class="container">
-          Copyright &copy; Your Website 2018
-        </div>
-      </footer>
-
-      <!-- Bootstrap core JavaScript -->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-      <!-- Plugin JavaScript -->
-      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-      <!-- Custom scripts for this template -->
-      <script src="js/grayscale.min.js"></script>
-
-    </body>
+	<footer class="footer text-center pt-2 pb-5">
+		<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+		<p class="copyright">Mathieu Salder - Haute Ecole de Gestion ARC</p>
+		<small class="copyright">Designed with by <a href="http://themes.3rdwavemedia.com">themes.3rdwavemedia.com</a></small>
+	</footer>
+</body>
 
 </html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").delay(2000).hide(0).fadeOut("slow");
+	});
+</script>
